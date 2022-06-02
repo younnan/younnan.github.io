@@ -10,7 +10,8 @@
     box-sizing: border-box;
 }
 
-ul, ol {
+ul,
+ol {
     list-style: none;
 }
 
@@ -25,5 +26,6 @@ body {
 }
 
 img {
+    max-width: 100%;
     vertical-align: middle;
 }
