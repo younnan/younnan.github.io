@@ -52,7 +52,12 @@ $(function () {
     $('#flink').on('change', function () {
         var lik = $(this).val();
         if (lik) window.open(lik)
+    });
+
+    $('.popup button').on('click', function () {
+        $(this).parent().hide();
     })
+
 
 })
 
